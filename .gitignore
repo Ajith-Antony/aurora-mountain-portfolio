@@ -1,0 +1,39 @@
+# Ignore agent customizations
+.agents
+.agents/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore other projects & temporary test files
+src/carbitlink/
+carbitlink/
+jobpilot/
+ajith-portfolio/
+ajith-portfolio-v3/
+ajith-portfolio-v3-standalone/
+aurora-mountain-portfolio/
+backtest_klines_cache.json
+test_*.js
+verify_strategy.js
